@@ -34,7 +34,7 @@ What the Notebook Does
 20.	Histograms: Age , Fare
 21.	Boxplot: Age by Survived
 22.	Correlation heatmap of numeric features
-23.	
+
 Notes
 •	The notebook suppresses warnings with	.<img width="310" height="28" alt="image" src="https://github.com/user-attachments/assets/107cdc7f-8a8c-449b-8eee-0b38745b4da7" />
 •	Adjust plotting backends as needed if running outside Jupyter.
