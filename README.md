@@ -22,14 +22,11 @@ What the Notebook Does
 9.	Fills Embarked with mode.
 10.	Encodes categoricals:
 <img width="340" height="52" alt="image" src="https://github.com/user-attachments/assets/8f8cca44-c4fe-4215-8cc9-e28f6d53b2b6" />,<img width="49" height="28" alt="image" src="https://github.com/user-attachments/assets/87395287-2391-47e8-9bbf-d03313a0ec20" />
-
-
-
 11.	Prints remaining missing values post‑cleaning.
 12.	Descriptive statistics: prints df.describe() .
-13.	Target explanation: clarifies Survived meanings —
-14.	Distribution summaries: value counts for Pclass .
-15.	Survival analysis: prints overall survival rate and survival rates by Sex , Pclass , and
+13.	Target explanation: clarifies Survived meanings — 0 : Not survived, 1: Survived
+14.	Distribution summaries: value counts for Sex, Embarked, Pclass
+15.	Survival analysis: prints overall survival rate and survival rates by Sex , Pclass , and Embarked
 16.	Visualizations (Matplotlib/Seaborn):
 17.	Countplot: Survived
 18.	Countplot: Sex × Survived
@@ -38,15 +35,13 @@ What the Notebook Does
 21.	Boxplot: Age by Survived
 22.	Correlation heatmap of numeric features
 Notes
-•	The notebook suppresses warnings with	.
+•	The notebook suppresses warnings with	.<img width="310" height="28" alt="image" src="https://github.com/user-attachments/assets/107cdc7f-8a8c-449b-8eee-0b38745b4da7" />
 •	Adjust plotting backends as needed if running outside Jupyter.
 Reuse
-•	The cleaned features ( downstream modeling.
-Acknowledgments
-
- 
-) and imputation steps provide a baseline for
- 
+•	The cleaned features (<img width="76" height="28" alt="image" src="https://github.com/user-attachments/assets/506df630-44b7-48f8-b184-bc7551306222" />,
+<img width="121" height="28" alt="image" src="https://github.com/user-attachments/assets/d4419cb6-df02-4833-acb7-7b5378bd332d" />
+) and imputation steps provide a baseline fordownstream modeling.
+Acknowledgments: 
 •	Classic Titanic dataset (commonly available via Kaggle and other sources).
 
  
