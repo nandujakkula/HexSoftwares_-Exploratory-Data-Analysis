@@ -39,9 +39,7 @@ Notes
 •	The notebook suppresses warnings with	.<img width="310" height="28" alt="image" src="https://github.com/user-attachments/assets/107cdc7f-8a8c-449b-8eee-0b38745b4da7" />
 •	Adjust plotting backends as needed if running outside Jupyter.
 Reuse
-•	The cleaned features (<img width="76" height="28" alt="image" src="https://github.com/user-attachments/assets/506df630-44b7-48f8-b184-bc7551306222" />,
-<img width="121" height="28" alt="image" src="https://github.com/user-attachments/assets/d4419cb6-df02-4833-acb7-7b5378bd332d" />
-) and imputation steps provide a baseline fordownstream modeling.
+•	The cleaned features (<img width="76" height="28" alt="image" src="https://github.com/user-attachments/assets/506df630-44b7-48f8-b184-bc7551306222" />,<img width="121" height="28" alt="image" src="https://github.com/user-attachments/assets/0683460c-e9d8-4f7e-a8ee-7aa4cd876dbc" />) and imputation steps provide a baseline fordownstream modeling.
 Acknowledgments: 
 •	Classic Titanic dataset (commonly available via Kaggle and other sources).
 
